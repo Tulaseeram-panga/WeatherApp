@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- title -->
+      <div class="title">
+        <h1>WEATHER APP</h1>
+      </div>
+      <div class="menuicon"><img src="menu.png" alt="" class="menu" /></div>
+      <!-- dark mode button -->
+      <div class="darkmode">
+        <button class="dbtn" id="dbtn">Dark Mode</button>
+      </div>
+      <!-- search bar -->
+      <div class="searchbar">
+        <input
+          type="text"
+          class="city"
+          id="city"
+          placeholder="Enter City Name"
+          autocomplete="off"
+        />
+
+        <!-- <i></i> -->
+      </div>
+      <!-- current location button -->
+      <div class="curloc">
+        <button type="submit" id="cbtn" class="cbtn">Current Location</button>
+      </div>
+      <!-- city details -->
+      <div class="cityname">
+        <div class="cityn"></div>
+        <div class="population"></div>
+        <div class="minmax"></div>
+        <div class="time"></div>
+        <div class="date"></div>
+        <div class="welcomepage"></div>
+      </div>
+
+      <!-- weather details -->
+      <div class="weather">
+        <div class="temp">24°C</div>
+        <div class="flike">Feels Like:22°C</div>
+        <div class="icon">
+          <img
+            src="http://openweathermap.org/img/wn/04n@4x.png"
+            alt="weather icon"
+            class="imgicon"
+          />
+          <div class="wdetails">Sunny</div>
+        </div>
+        <div class="humidity">
+          <div class="hicon">
+            <img
+              src="hicon.png"
+              alt="humidity icon"
+              width="70px"
+              height="70px"
+              class="huicon"
+            />
+          </div>
+          <div class="hdata">41%</div>
+          <div class="htitle">Humidity</div>
+        </div>
+
+        <div class="windsp">
+          <div class="wpicon">
+            <img
+              src="wpicon.png"
+              alt="wind speed icon"
+              width="70px"
+              height="70px"
+              class="wpwind"
+            />
+          </div>
+          <div class="wpdata">2 m/s</div>
+          <div class="wptitle">Wind Speed</div>
+        </div>
+        <div class="sunrise">
+          <div class="sricon">
+            <img
+              src="sricon.png"
+              alt="sunrise icon"
+              width="50px"
+              height="50px"
+              class="srimg"
+            />
+          </div>
+          <div class="srdata">6:00AM</div>
+          <div class="srtitle">Sunrise</div>
+        </div>
+        <div class="sunset">
+          <div class="ssicon">
+            <img
+              src="ssicon.png"
+              alt="sunset icon"
+              width="50px"
+              height="50px"
+              class="ssimg"
+            />
+          </div>
+          <div class="ssdata">6:00PM</div>
+          <div class="sstitle">Sunset</div>
+        </div>
+        <div class="pressure">
+          <div class="picon">
+            <img
+              src="picon.png"
+              alt="pressure icon"
+              width="70px"
+              height="70px"
+              class="pimg"
+            />
+          </div>
+          <div class="pdata">997hPa</div>
+          <div class="ptitle">Pressure</div>
+        </div>
+        <div class="vis">
+          <div class="vicon">
+            <img
+              src="vicon.png"
+              alt="visiability icon"
+              width="70px"
+              height="70px"
+              class="vimg"
+            />
+          </div>
+          <div class="vdata">10KM</div>
+          <div class="vtitle">Visibility</div>
+        </div>
+      </div>
+      <!-- forcast details -->
+      <div class="forcast">
+        <div class="forctitle">Hourly Forecast</div>
+        <div class="forcdata"></div>
+      </div>
+      <!-- <div class="hourlyf"></div> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
