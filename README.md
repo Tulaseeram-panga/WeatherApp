@@ -18,7 +18,7 @@ A simple weather application that fetches and displays real-time weather data us
 
 ## 📸 Screenshots
 
-![Weather App Screenshot]()
+![Weather App Screenshot](githubimage.png)
 
 ## 🔧 Installation
 
